@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# builds
+dist/
+*.tsbuildinfo
+
+# tests
+test-results/
+playwright-report/
+blob-report/
+
+# launch film (large media, kept local)
+production/
+
+# logs & env
+*.log
+npm-debug.log*
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <a href="https://opeblow.github.io/unpile/"><b>Live demo</b></a> ·
+  <a href="https://unpile-e0p.pages.dev/"><b>Live demo</b></a> ·
   <a href="https://youtu.be/FWtwXtPf5U4"><b>Demo video</b></a> ·
   <a href="docs/SYSTEM_DESIGN.md">System design</a> ·
   <a href="setup.md">Setup</a> ·
@@ -26,6 +26,20 @@
 </p>
 
 ---
+
+## LIVE DEMO
+
+<p align="center">
+  <a href="https://unpile-e0p.pages.dev/"><b>https://unpile-e0p.pages.dev</b></a>
+  <br />
+  No sign-up needed. Click <b>Try a sample list</b> to see the whole flow in 30 seconds.
+</p>
+
+<p align="center">
+  <a href="https://unpile-e0p.pages.dev/" title="Open the live Unpile app">
+    <img src="docs/screenshots/landing.png" alt="Unpile landing page — click to open the live app" width="800" />
+  </a>
+</p>
 
 ## DEMO VIDEO
 

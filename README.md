@@ -31,7 +31,7 @@
 
 <p align="center">
   <a href="https://youtu.be/FWtwXtPf5U4" title="Watch the Unpile demo on YouTube">
-    <img src="https://i.ytimg.com/vi/FWtwXtPf5U4/hqdefault.jpg" alt="Unpile demo video — click to watch on YouTube" width="800" />
+    <img src="docs/screenshots/video-thumbnail.png" alt="Unpile demo video — click to watch on YouTube" width="800" />
   </a>
   <br />
   <a href="https://youtu.be/FWtwXtPf5U4"><b>▶ Watch the 3-minute demo on YouTube</b></a>

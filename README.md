@@ -19,13 +19,23 @@
 
 <p align="center">
   <a href="https://opeblow.github.io/unpile/"><b>Live demo</b></a> ·
-  <a href="#"><b>Launch film (2:53)</b></a> ·
+  <a href="https://youtu.be/FWtwXtPf5U4"><b>Demo video</b></a> ·
   <a href="docs/SYSTEM_DESIGN.md">System design</a> ·
   <a href="setup.md">Setup</a> ·
   <a href="CONTRIBUTING.md">Contributing</a>
 </p>
 
 ---
+
+## DEMO VIDEO
+
+<p align="center">
+  <a href="https://youtu.be/FWtwXtPf5U4" title="Watch the Unpile demo on YouTube">
+    <img src="https://img.youtube.com/vi/FWtwXtPf5U4/maxresdefault.jpg" alt="Unpile demo video — click to watch on YouTube" width="800" />
+  </a>
+  <br />
+  <a href="https://youtu.be/FWtwXtPf5U4"><b>▶ Watch the 3-minute demo on YouTube</b></a>
+</p>
 
 <p align="center"><img src="docs/screenshots/one-thing.png" alt="The Now screen showing one suggested task with the reasons it was picked" width="800" /></p>
 

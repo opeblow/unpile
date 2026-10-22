@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-label="Unpile">
+  <rect x="8" y="64" width="64" height="12" rx="6" fill="#1D1A16" opacity=".16"/>
+  <rect x="16" y="48" width="48" height="12" rx="6" fill="#1D1A16" opacity=".32"/>
+  <rect x="25" y="22" width="30" height="18" rx="9" fill="#C2412A"/>
+  <text x="92" y="68" font-family="Fraunces, Georgia, serif" font-size="54" font-weight="600" letter-spacing="-1.5" fill="#1D1A16">Unpile</text>
+</svg>

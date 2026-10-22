@@ -1,21 +1,18 @@
-name: Test and deploy to GitHub Pages
+name: CI
 
+# Tests and builds every push. Hosting is done by Cloudflare Pages (https://unpile-e0p.pages.dev),
+# which builds from this repo on its own.
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,21 +21,19 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npm test
-      - run: npx playwright install --with-deps chromium
-      - run: npm run test:e2e
+      - name: Unit tests
+        run: npm test
+      - name: Install browser for end-to-end tests
+        run: npx playwright install --with-deps chromium
+      - name: End-to-end + accessibility tests
+        run: npm run test:e2e
         env:
           CI: true
-      - run: npm run build
-      - uses: actions/upload-pages-artifact@v3
+      - name: Production build
+        run: npm run build
+      - uses: actions/upload-artifact@v4
+        if: failure()
         with:
-          path: dist
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          name: playwright-report
+          path: test-results
+          retention-days: 7

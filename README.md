@@ -34,7 +34,7 @@
     <img src="docs/screenshots/video-thumbnail.png" alt="Unpile demo video — click to watch on YouTube" width="800" />
   </a>
   <br />
-  <a href="https://youtu.be/FWtwXtPf5U4"><b>▶ Watch the 3-minute demo on YouTube</b></a>
+  <a href="https://youtu.be/FWtwXtPf5U4"><b>Watch the 3-minute demo on YouTube</b></a>
 </p>
 
 <p align="center"><img src="docs/screenshots/one-thing.png" alt="The Now screen showing one suggested task with the reasons it was picked" width="800" /></p>
@@ -54,15 +54,15 @@ That’s **task paralysis**, and a longer, tidier list makes it worse. Unpile do
 
 ## Features
 
-- 🧠 **Brain dump** (type or speak) — understands “friday”, “tmrw”, “24th oct”, “asap”, “!!”, “40 min”, `#tags`, and ignores “ugh ok, so much to do”
-- 🎯 **One thing** — energy + time check-in, one suggestion, plain-language reasons, “show me another” that never nags
-- ✂️ **Shrink it** — big tasks become 3–5 editable steps; the first is always ≤5 minutes
-- ⏱️ **Focus mode** — calm full-screen timer, gentle chime, and a “Not finished — that’s okay” button
-- 🅿️ **Park & undo** — every destructive action can be undone
-- 🌱 **Wins** — what you finished, no streaks to break
-- ✉️ **Share update** — friendly or formal progress message, copy / share / email
-- ♿ **Comfort** — Atkinson Hyperlegible or Lexend, text up to 130%, high contrast, calm motion, keyboard shortcuts, screen-reader support
-- 🔒 **Private & offline** — no account, no server, no tracking; installable PWA
+- **Brain dump** (type or speak) — understands “friday”, “tmrw”, “24th oct”, “asap”, “!!”, “40 min”, `#tags`, and ignores “ugh ok, so much to do”
+- **One thing** — energy + time check-in, one suggestion, plain-language reasons, “show me another” that never nags
+- **Shrink it** — big tasks become 3–5 editable steps; the first is always ≤5 minutes
+- **Focus mode** — calm full-screen timer, gentle chime, and a “Not finished — that’s okay” button
+- **Park & undo** — every destructive action can be undone
+- **Wins** — what you finished, no streaks to break
+- **Share update** — friendly or formal progress message, copy / share / email
+- **Comfort** — Atkinson Hyperlegible or Lexend, text up to 130%, high contrast, calm motion, keyboard shortcuts, screen-reader support
+- **Private & offline** — no account, no server, no tracking; installable PWA
 
 ## Quick start
 
@@ -83,7 +83,7 @@ npm run build        # strict type-check + production build
 
 ```text
 unpile/
-├── .github/workflows/deploy.yml   # CI: unit + e2e tests → build → GitHub Pages
+├── .github/workflows/deploy.yml   # CI: unit + e2e tests  build  GitHub Pages
 ├── docs/
 │   ├── SYSTEM_DESIGN.md           # architecture, algorithms, data model, trade-offs
 │   └── screenshots/
@@ -92,9 +92,9 @@ unpile/
 ├── public/                        # icon.svg · logo.svg · manifest · offline service worker
 ├── src/
 │   ├── lib/                       # pure, tested logic (no React)
-│   │   ├── parse.ts               # brain dump → tasks
+│   │   ├── parse.ts               # brain dump  tasks
 │   │   ├── pick.ts                # one task + reasons
-│   │   ├── shrink.ts              # task → tiny steps
+│   │   ├── shrink.ts              # task  tiny steps
 │   │   ├── store.ts               # reducer, persistence, sanitize
 │   │   ├── share.ts               # progress message
 │   │   ├── dates.ts · types.ts · sample.ts
